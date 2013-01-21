@@ -12,7 +12,7 @@
 		2C61CEA316AB965F00BA662E /* STAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C61CEA216AB965F00BA662E /* STAppDelegate.m */; };
 		2C61CEA616AB965F00BA662E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C61CEA416AB965F00BA662E /* MainMenu.xib */; };
 		2C61CEAE16AB9C7A00BA662E /* STITunesNowPlayingListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C61CEAD16AB9C7A00BA662E /* STITunesNowPlayingListener.m */; };
-		2C61CEB016ABA13C00BA662E /* iTunesNotifier.icns in Resources */ = {isa = PBXBuildFile; fileRef = 2C61CEAF16ABA13C00BA662E /* iTunesNotifier.icns */; };
+		2C61CEB016ABA13C00BA662E /* iTunesNotifier.iconset in Resources */ = {isa = PBXBuildFile; fileRef = 2C61CEAF16ABA13C00BA662E /* iTunesNotifier.iconset */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +28,7 @@
 		2C61CEA516AB965F00BA662E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		2C61CEAC16AB9C7A00BA662E /* STITunesNowPlayingListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STITunesNowPlayingListener.h; sourceTree = "<group>"; };
 		2C61CEAD16AB9C7A00BA662E /* STITunesNowPlayingListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STITunesNowPlayingListener.m; sourceTree = "<group>"; };
-		2C61CEAF16ABA13C00BA662E /* iTunesNotifier.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = iTunesNotifier.icns; sourceTree = "<group>"; };
+		2C61CEAF16ABA13C00BA662E /* iTunesNotifier.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = iTunesNotifier.iconset; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +87,7 @@
 				2C61CEA116AB965F00BA662E /* STAppDelegate.h */,
 				2C61CEA216AB965F00BA662E /* STAppDelegate.m */,
 				2C61CEA416AB965F00BA662E /* MainMenu.xib */,
-				2C61CEAF16ABA13C00BA662E /* iTunesNotifier.icns */,
+				2C61CEAF16ABA13C00BA662E /* iTunesNotifier.iconset */,
 				2C61CEAC16AB9C7A00BA662E /* STITunesNowPlayingListener.h */,
 				2C61CEAD16AB9C7A00BA662E /* STITunesNowPlayingListener.m */,
 			);
@@ -147,7 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C61CEA616AB965F00BA662E /* MainMenu.xib in Resources */,
-				2C61CEB016ABA13C00BA662E /* iTunesNotifier.icns in Resources */,
+				2C61CEB016ABA13C00BA662E /* iTunesNotifier.iconset in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
