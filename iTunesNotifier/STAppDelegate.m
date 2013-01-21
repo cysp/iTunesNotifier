@@ -40,6 +40,7 @@
 		n.subtitle = info.artist;
 		n.informativeText = info.album;
 		n.hasActionButton = NO;
+		n.soundName = nil;
 
 		[_unc scheduleNotification:n];
 	}
