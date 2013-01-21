@@ -39,6 +39,7 @@
 		n.title = info.name;
 		n.subtitle = info.artist;
 		n.informativeText = info.album;
+		n.hasActionButton = NO;
 
 		[_unc scheduleNotification:n];
 	}
