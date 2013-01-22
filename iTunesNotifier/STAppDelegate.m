@@ -10,7 +10,7 @@
 #import "STITunesNowPlayingListener.h"
 
 
-@interface STAppDelegate () <STITunesNowPlayingObserver>
+@interface STAppDelegate () <STITunesNowPlayingObserver,NSUserNotificationCenterDelegate>
 @end
 
 @implementation STAppDelegate {
@@ -21,6 +21,9 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
 	_unc = [NSUserNotificationCenter defaultUserNotificationCenter];
+
+	_unc.delegate  = self;
+
 	[_unc removeAllDeliveredNotifications];
 
 	_nowPlayingListener = [[STITunesNowPlayingListener alloc] init];
@@ -45,5 +48,14 @@
 		[_unc scheduleNotification:n];
 	}
 }
+
+
+#pragma mark - NSUserNotificationCenterDelegate
+
+- (void)userNotificationCenter:(NSUserNotificationCenter *)center didActivateNotification:(NSUserNotification *)notification {
+	NSWorkspace * const workspace = [NSWorkspace sharedWorkspace];
+	[workspace launchAppWithBundleIdentifier:@"com.apple.iTunes" options:NSWorkspaceLaunchDefault additionalEventParamDescriptor:nil launchIdentifier:NULL];
+}
+
 
 @end
