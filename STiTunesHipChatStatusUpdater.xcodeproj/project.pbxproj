@@ -12,11 +12,11 @@
 		2C61CEA316AB965F00BA662E /* STAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C61CEA216AB965F00BA662E /* STAppDelegate.m */; };
 		2C61CEA616AB965F00BA662E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C61CEA416AB965F00BA662E /* MainMenu.xib */; };
 		2C61CEAE16AB9C7A00BA662E /* STITunesNowPlayingListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C61CEAD16AB9C7A00BA662E /* STITunesNowPlayingListener.m */; };
-		2C61CEB016ABA13C00BA662E /* iTunesNotifier.iconset in Resources */ = {isa = PBXBuildFile; fileRef = 2C61CEAF16ABA13C00BA662E /* iTunesNotifier.iconset */; };
+		2C61CEB016ABA13C00BA662E /* STiTunesHipChatStatusUpdater.iconset in Resources */ = {isa = PBXBuildFile; fileRef = 2C61CEAF16ABA13C00BA662E /* STiTunesHipChatStatusUpdater.iconset */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2C61CE8C16AB965F00BA662E /* iTunesNotifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunesNotifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C61CE8C16AB965F00BA662E /* STiTunesHipChatStatusUpdater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STiTunesHipChatStatusUpdater.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C61CE8F16AB965F00BA662E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		2C61CE9216AB965F00BA662E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		2C61CE9316AB965F00BA662E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -28,7 +28,7 @@
 		2C61CEA516AB965F00BA662E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		2C61CEAC16AB9C7A00BA662E /* STITunesNowPlayingListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STITunesNowPlayingListener.h; sourceTree = "<group>"; };
 		2C61CEAD16AB9C7A00BA662E /* STITunesNowPlayingListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STITunesNowPlayingListener.m; sourceTree = "<group>"; };
-		2C61CEAF16ABA13C00BA662E /* iTunesNotifier.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = iTunesNotifier.iconset; sourceTree = "<group>"; };
+		2C61CEAF16ABA13C00BA662E /* STiTunesHipChatStatusUpdater.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = STiTunesHipChatStatusUpdater.iconset; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +46,7 @@
 		2C61CE8316AB965F00BA662E = {
 			isa = PBXGroup;
 			children = (
-				2C61CE9516AB965F00BA662E /* iTunesNotifier */,
+				2C61CE9516AB965F00BA662E /* STiTunesHipChatStatusUpdater */,
 				2C61CE8E16AB965F00BA662E /* Frameworks */,
 				2C61CE8D16AB965F00BA662E /* Products */,
 			);
@@ -55,7 +55,7 @@
 		2C61CE8D16AB965F00BA662E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2C61CE8C16AB965F00BA662E /* iTunesNotifier.app */,
+				2C61CE8C16AB965F00BA662E /* STiTunesHipChatStatusUpdater.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,7 +79,7 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		2C61CE9516AB965F00BA662E /* iTunesNotifier */ = {
+		2C61CE9516AB965F00BA662E /* STiTunesHipChatStatusUpdater */ = {
 			isa = PBXGroup;
 			children = (
 				2C61CE9716AB965F00BA662E /* Info.plist */,
@@ -87,19 +87,19 @@
 				2C61CEA116AB965F00BA662E /* STAppDelegate.h */,
 				2C61CEA216AB965F00BA662E /* STAppDelegate.m */,
 				2C61CEA416AB965F00BA662E /* MainMenu.xib */,
-				2C61CEAF16ABA13C00BA662E /* iTunesNotifier.iconset */,
+				2C61CEAF16ABA13C00BA662E /* STiTunesHipChatStatusUpdater.iconset */,
 				2C61CEAC16AB9C7A00BA662E /* STITunesNowPlayingListener.h */,
 				2C61CEAD16AB9C7A00BA662E /* STITunesNowPlayingListener.m */,
 			);
-			path = iTunesNotifier;
+			path = STiTunesHipChatStatusUpdater;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2C61CE8B16AB965F00BA662E /* iTunesNotifier */ = {
+		2C61CE8B16AB965F00BA662E /* STiTunesHipChatStatusUpdater */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2C61CEA916AB965F00BA662E /* Build configuration list for PBXNativeTarget "iTunesNotifier" */;
+			buildConfigurationList = 2C61CEA916AB965F00BA662E /* Build configuration list for PBXNativeTarget "STiTunesHipChatStatusUpdater" */;
 			buildPhases = (
 				2C61CE8816AB965F00BA662E /* Sources */,
 				2C61CE8916AB965F00BA662E /* Frameworks */,
@@ -109,9 +109,9 @@
 			);
 			dependencies = (
 			);
-			name = iTunesNotifier;
+			name = STiTunesHipChatStatusUpdater;
 			productName = iTunesNotifier;
-			productReference = 2C61CE8C16AB965F00BA662E /* iTunesNotifier.app */;
+			productReference = 2C61CE8C16AB965F00BA662E /* STiTunesHipChatStatusUpdater.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -124,7 +124,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Scott Talbot";
 			};
-			buildConfigurationList = 2C61CE8716AB965F00BA662E /* Build configuration list for PBXProject "iTunesNotifier" */;
+			buildConfigurationList = 2C61CE8716AB965F00BA662E /* Build configuration list for PBXProject "STiTunesHipChatStatusUpdater" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -136,7 +136,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2C61CE8B16AB965F00BA662E /* iTunesNotifier */,
+				2C61CE8B16AB965F00BA662E /* STiTunesHipChatStatusUpdater */,
 			);
 		};
 /* End PBXProject section */
@@ -147,7 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C61CEA616AB965F00BA662E /* MainMenu.xib in Resources */,
-				2C61CEB016ABA13C00BA662E /* iTunesNotifier.iconset in Resources */,
+				2C61CEB016ABA13C00BA662E /* STiTunesHipChatStatusUpdater.iconset in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,8 +241,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = iTunesNotifier/Info.plist;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "$(SRCROOT)/STiTunesHipChatStatusUpdater/Info.plist";
+				PRODUCT_NAME = STiTunesHipChatStatusUpdater;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -251,8 +251,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = iTunesNotifier/Info.plist;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "$(SRCROOT)/STiTunesHipChatStatusUpdater/Info.plist";
+				PRODUCT_NAME = STiTunesHipChatStatusUpdater;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -260,7 +260,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2C61CE8716AB965F00BA662E /* Build configuration list for PBXProject "iTunesNotifier" */ = {
+		2C61CE8716AB965F00BA662E /* Build configuration list for PBXProject "STiTunesHipChatStatusUpdater" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2C61CEA716AB965F00BA662E /* Debug */,
@@ -269,7 +269,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2C61CEA916AB965F00BA662E /* Build configuration list for PBXNativeTarget "iTunesNotifier" */ = {
+		2C61CEA916AB965F00BA662E /* Build configuration list for PBXNativeTarget "STiTunesHipChatStatusUpdater" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2C61CEAA16AB965F00BA662E /* Debug */,
