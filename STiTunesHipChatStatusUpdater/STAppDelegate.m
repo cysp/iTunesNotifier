@@ -36,6 +36,8 @@
         }
         NSString * const status = [statusComponents componentsJoinedByString:@" - "];
         [_dnc postNotificationName:@"STHipChatStatusUpdate" object:nil userInfo:@{ @"status": status } options:NSNotificationDeliverImmediately];
+	} else {
+        [_dnc postNotificationName:@"STHipChatStatusUpdate" object:nil userInfo:nil options:NSNotificationDeliverImmediately];
 	}
 }
 
